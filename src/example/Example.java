@@ -95,7 +95,7 @@ public class Example extends ChaincodeBase {
 			return "Hello world! from "+ stub.getState(args[0]);
 		}else{
 			log.info("Step 7.2 - No value found for key '"+args[0]+"'");
-			return "Hello blockchain example again "+args[0]+"!";
+			return "Hello blockchain example2 again "+args[0]+"!";
 		}
 	}
 
